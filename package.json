@@ -4,9 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryan-321/eg-react-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ryan-321/eg-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Ryan-321/eg-react-boilerplate#readme",
+  "devDependencies": {
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
 }
